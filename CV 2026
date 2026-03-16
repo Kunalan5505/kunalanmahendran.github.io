@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kunalan Mahendran | Digital Marketing Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#111;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+section{
+padding:40px;
+max-width:900px;
+margin:auto;
+}
+
+.project{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#333;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Kunalan Mahendran</h1>
+<p>Senior Digital Marketing Executive | Full Stack Digital Marketer</p>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p>
+Digital marketing specialist with 3+ years experience managing
+lead generation campaigns, marketing funnels, landing pages,
+and analytics tracking for higher education institutions.
+</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<ul>
+<li>Google Ads</li>
+<li>Meta Ads</li>
+<li>WordPress & Oxygen Builder</li>
+<li>Landing Page Optimization</li>
+<li>Google Tag Manager</li>
+<li>Google Analytics</li>
+<li>Salesforce Integration</li>
+<li>Email Marketing</li>
+</ul>
+</section>
+
+<section>
+<h2>Projects</h2>
+
+<div class="project">
+<h3>University Lead Generation Campaign</h3>
+<p>Managed digital campaigns across 5 institutions,
+increasing student leads by 15%.</p>
+</div>
+
+<div class="project">
+<h3>Landing Page Development</h3>
+<p>Built 70+ landing pages with Salesforce integration
+and advanced conversion tracking.</p>
+</div>
+
+<div class="project">
+<h3>Marketing Funnel Optimization</h3>
+<p>Implemented funnel tracking using Google Tag Manager,
+Google Analytics, and Meta Pixel.</p>
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: kunalan517@gmail.com</p>
+<p>LinkedIn: www.linkedin.com/in/kunalan-mahendran</p>
+</section>
+
+</body>
+</html>
