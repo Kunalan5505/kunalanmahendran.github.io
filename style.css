@@ -3041,18 +3041,19 @@ body {
   position: relative;
   z-index: 3;
   display: grid;
-  grid-template-columns: 1fr 0.95fr;
-  gap: 56px;
+  grid-template-columns: 0.88fr 1.12fr;
+  gap: 80px;
   align-items: center;
 }
 
 .growth-hero-content h1 {
-  font-size: clamp(2.8rem, 4.8vw, 4.9rem);
-  line-height: 0.98;
+  font-size: clamp(2.4rem, 4vw, 4.2rem);
+  line-height: 1.02;
   letter-spacing: -0.055em;
   margin-bottom: 28px;
   max-width: 620px;
   font-weight: 800;
+  text-wrap: balance;
 }
 
 .growth-hero-content h1 span {
@@ -3065,9 +3066,9 @@ body {
 
 .growth-hero-subtext {
   color: var(--muted);
-  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
   line-height: 1.8;
-  max-width: 650px;
+  max-width: 600px;
 }
 
 .growth-hero-buttons {
@@ -3087,7 +3088,7 @@ body {
 
 .growth-image-wrap {
   position: relative;
-  width: min(100%, 560px);
+  width: min(100%, 620px);
   aspect-ratio: 1 / 1;
   border-radius: 42px;
   padding: 18px;
@@ -3197,7 +3198,6 @@ body {
   }
 }
 
-/* MOBILE */
 @media (max-width: 980px) {
   .growth-hero {
     padding: 145px 20px 70px;
@@ -3257,7 +3257,8 @@ body {
   }
 
   .growth-hero-content h1 {
-    font-size: clamp(2.25rem, 11vw, 3.25rem);
+    font-size: clamp(2.1rem, 10vw, 3rem);
+    line-height: 1.05;
   }
 
   .growth-hero-buttons {
